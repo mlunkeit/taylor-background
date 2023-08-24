@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Poppins&family=Roboto&display=swap');
+
+body, html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: var(--eggplant);
+}
+
+header {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: 'Assistant', sans-serif;
+}
+
+header .title {
+	display: inline;
+	color: white;
+	font-size: 150px;
+}
+
+header .interpreter {
+	display: inline;
+	color: lightgray;
+	font-size: 50px;
+}
+
+footer {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: 'Poppins', sans-serif;
+	font-size: 100px;
+	color: white;
+}
+
+.cover {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
